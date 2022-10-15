@@ -6,13 +6,6 @@
 	A aplicação desenvolvida é um cardápio digital para um restaurante fictício, conhecido como foodExplorer.
 </h3>
 
-<p align="center">
-	<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
-	<img src="https://img.shields.io/github/repo-size/Vander-Reis/foodExplorerBack-end?color=green"/>
-	<img src="https://img.shields.io/github/last-commit/Vander-Reis/foodExplorerBack-end?color=green"/>
-	<img src="https://img.shields.io/github/languages/count/Vander-Reis/foodExplorerBack-end?color=green"/>
-</p>
-
 <h4 align="center">
 	Status: 🚧 In Construction
 </h4>
