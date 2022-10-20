@@ -1,19 +1,16 @@
-const knex = require("../database/knex");
-const AppError = require("../utils/ErroApp");
+const knex = require('../database/knex')
+const AppError = require('../utils/AppError')
 
 async function ensureIsAdmin(request, response, next) {
+  const user_id = request.user.id
 
-    const { id } = request.user;
+  const user = await knex('users').where({ id: user_id }).first()
 
-    const user = await knex("users").where({ id });
+  if (!user.isAdmin) {
+    throw new AppError('user unauthorized', 401)
+  }
 
-    const isAdmin = user[0].is_admin;
-
-    if(!isAdmin) {
-        throw new AppError("Você não é um administrador", 401);
-    }
-
-    return next();
+  next()
 }
 
-module.exports = ensureIsAdmin;
+module.exports = ensureIsAdmin

@@ -52,6 +52,7 @@ $ npx knex seed:run
 // rodar o servidor
 $ npm run dev
 
-// usuário adm
-email: admin@teste.com
-senha: 123456789
+# Admin login
+
+$ email: admin@email.com
+$ password: 090807
