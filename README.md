@@ -56,3 +56,6 @@ $ npm run dev
 
 $ email: admin@email.com
 $ password: 090807
+
+Link do Deploy aplicação completa:
+https://foodexplorerfinal.netlify.app/
