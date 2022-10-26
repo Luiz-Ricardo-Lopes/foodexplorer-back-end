@@ -57,5 +57,16 @@ $ npm run dev
 $ email: admin@email.com
 $ password: 090807
 
+Documentação:
+
+http://localhost:3333/dishes
+http://localhost:3333/user
+http://localhost:3333/carts
+http://localhost:3333/sessions
+
+Faça uma requisição Post para http://localhost:3333/sessions passando email: admin@email.com e password: 090807 para recuperar o token de acesso
+
+Apos isso o token sera enviar o token_bearer no header de autenticaçao.
+
 Link do Deploy aplicação completa:
 https://foodexplorerfinal.netlify.app/
